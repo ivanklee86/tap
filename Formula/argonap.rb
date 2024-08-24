@@ -10,7 +10,7 @@ class Argonap < Formula
   on_macos do
     on_intel do
       url "https://github.com/ivanklee86/argonap/releases/download/v0.0.1/argonap_0.0.1_darwin_amd64.tar.gz"
-      sha256 "4208b0e5d7bb92dbed14c475056b4ad39b65b8714b9674027a9bb4158a3317f6"
+      sha256 "53db2b81fabc926a5840e1e512cf84790b88e785ff1ebc79cf9218a9641b8b28"
 
       def install
         bin.install "argonap"
@@ -18,7 +18,7 @@ class Argonap < Formula
     end
     on_arm do
       url "https://github.com/ivanklee86/argonap/releases/download/v0.0.1/argonap_0.0.1_darwin_arm64.tar.gz"
-      sha256 "b2e9caea85a0d984bcf5765864d6e4f32e75775cb5bb6206727b5dca2ebefc07"
+      sha256 "2f129e66a0821fab019884b4f89fcf010234a07481b4e700b922c8a281d67c90"
 
       def install
         bin.install "argonap"
@@ -30,7 +30,7 @@ class Argonap < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/ivanklee86/argonap/releases/download/v0.0.1/argonap_0.0.1_linux_amd64.tar.gz"
-        sha256 "806c7f8c146818a8b1fb66c1dbdf8566ab57a72b308ba13fa03b3ef8a799ff4a"
+        sha256 "ebe745b6e5b2a1466bbc22740ea35b00ae0579ab818e5f1bbececbb33ee0b9b8"
 
         def install
           bin.install "argonap"
@@ -40,7 +40,7 @@ class Argonap < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/ivanklee86/argonap/releases/download/v0.0.1/argonap_0.0.1_linux_arm64.tar.gz"
-        sha256 "0d77684ca856b02d5c552383c87bc651d5225ccedfd01e8eea5950ae460d80ae"
+        sha256 "76ccc071d7663a42e4d63ac9ac0b9a7e5b204edb8b43f0c53d80d39c359f9534"
 
         def install
           bin.install "argonap"

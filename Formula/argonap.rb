@@ -5,20 +5,20 @@
 class Argonap < Formula
   desc "A CLI to configure/clear SyncWindows on ArgoCD projects."
   homepage "https://github.com/ivanklee86/argonap"
-  version "0.0.2"
+  version "0.0.3"
 
   on_macos do
     on_intel do
-      url "https://github.com/ivanklee86/argonap/releases/download/v0.0.2/argonap_0.0.2_darwin_amd64.tar.gz"
-      sha256 "d2370af645a05a8be711d5023946bf0862ce845b6567ba46e4dd35973050f801"
+      url "https://github.com/ivanklee86/argonap/releases/download/v0.0.3/argonap_0.0.3_darwin_amd64.tar.gz"
+      sha256 "cccb9dcc6780899cd191b2983926723798d88201489006f24456574b99bd38d4"
 
       def install
         bin.install "argonap"
       end
     end
     on_arm do
-      url "https://github.com/ivanklee86/argonap/releases/download/v0.0.2/argonap_0.0.2_darwin_arm64.tar.gz"
-      sha256 "76bb63bc1a895d41e4bf0bc740da52227b974d73c418b81941489953afec15ba"
+      url "https://github.com/ivanklee86/argonap/releases/download/v0.0.3/argonap_0.0.3_darwin_arm64.tar.gz"
+      sha256 "6f92562cfa38793c120d98d73bd8c80ad5f3a35f358d043aee9a9ac0056af205"
 
       def install
         bin.install "argonap"
@@ -29,8 +29,8 @@ class Argonap < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ivanklee86/argonap/releases/download/v0.0.2/argonap_0.0.2_linux_amd64.tar.gz"
-        sha256 "066b9557fdc206a2f8ab96419ed0be87a8f1f5d5653d5c45a6abb39d4fe50423"
+        url "https://github.com/ivanklee86/argonap/releases/download/v0.0.3/argonap_0.0.3_linux_amd64.tar.gz"
+        sha256 "3b3bfc4d478d46fb8bdd7e1e95c51d066dc2016d692d1d4adcdd97ca15c19755"
 
         def install
           bin.install "argonap"
@@ -39,8 +39,8 @@ class Argonap < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ivanklee86/argonap/releases/download/v0.0.2/argonap_0.0.2_linux_arm64.tar.gz"
-        sha256 "129d8821e7ac98744615a3edbfdc99aa7cdcf3c26f2a95868edb07a7e1033701"
+        url "https://github.com/ivanklee86/argonap/releases/download/v0.0.3/argonap_0.0.3_linux_arm64.tar.gz"
+        sha256 "305791a4271dfc02ba31584feb4ccd04ac6f899528976551435b363558957c79"
 
         def install
           bin.install "argonap"
